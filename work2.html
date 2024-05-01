@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Layout3</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .sidebar{
+            background-color: green;
+            width: 20%;
+        }
+        nav{
+            background-color: cyan;
+            height: 20%;
+        }
+        .row1{
+            display: flex;
+            height: 100vh;
+            width: 100%;
+        }
+        .contents{
+            height: 80%;
+            background-color: bisque;
+        }
+        .col2{
+            width: 80%;
+        }
+        @media only screen and (max-width: 768px){
+            .sidebar{
+                background-color: brown;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="row1">
+        <div class="sidebar">SIDEBAR</div>
+        <div class="col2">
+            <nav>NAV</nav>
+            <div class="contents">CONTENTS</div>
+        </div>
+    </div>
+
+</body>
+</html>

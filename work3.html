@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        .body{
+            background-color: rgb(211, 109, 240);
+
+        }
+        @keyframes rotating-box {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .box {
+            width: 200px;
+            height: 100px;
+            box-shadow: 45px;
+            background-color: aquamarine;
+            animation: rotating-box linear 7s infinite;
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+
+</body>
+
+</html>

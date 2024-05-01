@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Write on top of image</title>
+    <style>
+        .parent{
+            width: 300px;
+            position: relative;
+        }
+        .bgChild{
+            width: 100%;
+            opacity: 30%;
+        }
+        .topChild{
+            position: absolute;
+            right: 45px;
+            top: 40%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="parent">
+        <img src="123.jpg" class="bgChild">
+        <h3 class="topChild">My name is above image</h3>
+    </div>
+    
+</body>
+</html>
